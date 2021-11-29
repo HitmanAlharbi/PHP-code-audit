@@ -1,7 +1,7 @@
 # Find called classes with their paths
 
 This code will extract all called class in the page with their paths 
-+ It will check if they have __constructor method or not
++ It will check too if they have __constructor method or not
 
 ```php 
 foreach(get_declared_classes() as $class){
