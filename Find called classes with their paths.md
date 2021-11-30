@@ -1,6 +1,6 @@
 # Find called classes with their paths
 
-This code will extract all called class in the page with their paths 
+This code will extract all called classes in the page with their paths 
 + It will check too if they have __constructor method or not
 
 ```php 
