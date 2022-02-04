@@ -16,7 +16,7 @@ foreach(get_declared_classes() as $class){
     $path = $ref->getFileName();
     // If the path is not empty
     if(!empty($path)){
-        // Print the class name + does have consturctor? + path
+        // Print the class name + does has consturctor? + path
         echo "$class - $hasConstruct - $path<br><br>";
     }
 }
